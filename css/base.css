@@ -1,0 +1,34 @@
+/* css初始化 */
+body,ul,li,p,h4 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline-style: none;
+  border: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix::after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+
+	zoom: 1;
+}
